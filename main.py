@@ -47,7 +47,7 @@ def main():
         for widget in frame.winfo_children():
             widget.destroy()
         for x in range(0,2):
-            time.sleep(0.2)
+            time.sleep(0.1)
             url_location = setScreenPosition.set_position()
             tmp1 = url_location[0]
             tmp2 = url_location[1]
